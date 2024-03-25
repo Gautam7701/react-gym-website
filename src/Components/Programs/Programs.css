@@ -1,0 +1,80 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+    margin-top: 10rem;
+}
+.program-header{
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+}
+.programs-categories{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.first-category,.second-category,.third-category,.fourth-category{
+    border: transparent;
+    background-color: var(--caloryCard);
+    width: 25vw;
+    cursor: pointer;
+}
+.image{
+    margin: 2rem;
+}
+.content{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.heading{
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+.about{
+    color: white;
+    font-weight: 200;
+}
+.join1{
+    color: white;
+    font-weight: 300;
+    font-size:20px ;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.first-category:hover{
+    background-color: var(--orange);
+}
+.second-category:hover{
+    background-color: var(--orange);
+}
+.third-category:hover{
+    background-color: var(--orange);
+}
+.fourth-category:hover{
+    background-color: var(--orange);
+}
+@media only screen and (max-width: 600px) {
+    .programs-categories{
+     display: flex;
+     flex-direction: column;
+    }
+    .first-category,.second-category,.third-category,.fourth-category{
+        width: 15rem;
+    }
+    .program-header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        gap: 2rem;
+    }
+   }

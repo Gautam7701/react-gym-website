@@ -1,0 +1,96 @@
+.plans{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.plans-heading{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.plans-categories{
+    display: flex;
+    flex-direction: row;
+    margin:  1rem 4rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.first-plan{
+    background-color: grey;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+.second-plan{
+    background-color: var(--orange);
+    height: 35rem;
+    font-size: 2rem;
+}
+.third-plan{
+    background-color: grey;
+    height: 30rem;
+    font-size: 2rem;
+}
+
+.heading-plans{
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+
+.plans-images{
+    height: 30px;
+    display: flex;
+    padding: 2rem;
+}
+.content-plans{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin: 1rem 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.prize{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin: 1rem;
+}
+.plan-footer{
+    color: white;
+    font-size: 1rem;
+    margin: 1rem;
+}
+.btn-plan{
+    height: 40px;
+    width: 100px;
+    margin: 0 6rem;
+}
+@media only screen and (max-width: 600px){
+    .plans-heading{
+        display: flex;
+        flex-direction: column;
+    }
+    .plans-categories{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-plan,.second-plan,.third-plan{
+        height: 35rem;
+    }
+
+}
+
